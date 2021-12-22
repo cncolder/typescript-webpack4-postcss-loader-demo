@@ -13,6 +13,7 @@ const config: Configuration = {
       test: /\.pcss$/,
       use: [
         'style-loader',
+        'css-loader',
         {
           loader: 'postcss-loader',
           options: {
